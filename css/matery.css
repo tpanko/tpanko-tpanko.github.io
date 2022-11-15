@@ -36,7 +36,7 @@
 body {
     background-color: #eaeaea;
     margin: 0;
-    color: #34495e;
+    color: #1c1e2c;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -94,7 +94,7 @@ hr {
 }
 
 blockquote {
-    border-left: 5px solid #42b983;
+    border-left: 5px solid #161823;
     padding: 1rem 0.8rem 0.2rem 0.8rem;
     color: #666;
     background-color: rgba(66, 185, 131, .1);
@@ -198,7 +198,7 @@ kbd {
     font-size: 0.9rem;
     font-weight: 600;
     background-color: #f8f8f8;
-    color: #34495e;
+    color: #1c1e2c;
     line-height: 1.8rem;
     white-space: nowrap;
 }
@@ -241,11 +241,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #1c1e2c 0%, #1c1e2c 100%);
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #1c1e2c !important;
 }
 
 .white-color {
@@ -257,7 +257,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #1c1e2c 0%, #1c1e2c 100%);
     opacity: 0.8;
 }
 
@@ -341,13 +341,13 @@ header .side-nav .menu-list li {
 header .side-nav .menu-list a {
     height: 50px;
     line-height: 50px;
-    color: #34495e !important;
+    color: #1c1e2c !important;
 }
 
 .mobile-menu-list a i {
     margin-left: 8px !important;
     font-size: 1.16rem;
-    color: #34495e !important;
+    color: #1c1e2c !important;
 }
 
 header .side-nav .fa-fw {
@@ -593,7 +593,7 @@ header .go-back i {
     font-weight: 400;
 }
 
-@-webkit-keyframes rainbow {
+/* @-webkit-keyframes rainbow {
 
     0%,
     100% {
@@ -684,7 +684,7 @@ header .go-back i {
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
 }
-
+ */
 .index-card {
     margin-top: -10px;
     padding-top: 20px;
@@ -875,7 +875,7 @@ article a {
 
 article a:hover {
     font-weight: bold;
-    color: #42b983;
+    color: #161823;
     text-decoration: underline;
 }
 
@@ -1058,7 +1058,7 @@ article .article-tags .chip {
     border-radius: 15px;
     margin-right: 5px;
     margin-bottom: 2px;
-    color: #42b983;
+    color: #161823;
     background: #fff;
     border: 1px solid;
     transition: all 0.6s ease-in-out;
@@ -1066,17 +1066,17 @@ article .article-tags .chip {
 
 #artDetail .tag_share .article-tag .chip:hover {
     color: #fff;
-    background: #42b983;
+    background: #161823;
 }
 
 #artDetail .post-cate {
     float: right;
-    color: #42b983;
+    color: #161823;
 }
 
 #artDetail .post-cate a {
     padding-right: 5px;
-    color: #42b983;
+    color: #161823;
     font-weight: 500;
 }
 
@@ -1095,7 +1095,7 @@ article .article-tags .chip {
 
 #artDetail .post-info .post-category:hover {
     font-weight: bold;
-    color: #42b983;
+    color: #161823;
     text-decoration: underline;
 }
 
@@ -1158,7 +1158,7 @@ article .article-tags .chip {
 
 #artDetail .reprint a {
     font-size: 1.05rem;
-    color: #42b983;
+    color: #161823;
     font-weight: 500;
 }
 
@@ -1174,7 +1174,7 @@ article .article-tags .chip {
 
 #articleContent a {
     padding: 0 2px;
-    color: #42b983;
+    color: #161823;
     font-weight: 500;
     text-decoration: underline;
     word-wrap: break-word;
@@ -1293,12 +1293,12 @@ thead {
 }
 
 .chip-container .chip-default {
-    color: #34495e;
+    color: #1c1e2c;
 }
 
 .chip-container .chip-active {
     color: #FFF !important;
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%) !important;
+    background: linear-gradient(to bottom right, #4cbf30 0%, #0f9d58 100%) !important;
     box-shadow: 2px 5px 10px #aaa !important;
 }
 
@@ -1317,7 +1317,7 @@ thead {
 
 .chip-container .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%) !important;
+    background: linear-gradient(to right, #1c1e2c 0%, #1c1e2c 100%) !important;
 }
 
 .chip .tag-length {
@@ -1342,7 +1342,7 @@ thead {
     height: 80px;
     margin: 10px 0 50px -20px;
     padding: 21px 10px;
-    background-color: #ff5722;
+    background-color: #0f9d58;
     color: #fff;
     font-size: 1.8rem;
     font-weight: 600;
@@ -1358,7 +1358,7 @@ thead {
     height: 60px;
     margin: 10px 0 30px -10px;
     padding: 14px 16px;
-    background-color: #ef6c00;
+    background-color: #4F9D77;
     color: #fff;
     font-size: 1.7rem;
     font-weight: 600;
@@ -1371,7 +1371,7 @@ thead {
 #cd-timeline .day {
     position: relative;
     padding: 8px 10px;
-    background-color: #ffa726;
+    background-color: #7A9D8C;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
@@ -1393,7 +1393,7 @@ thead {
     left: 18px;
     height: 100%;
     width: 4px;
-    background: #0f9d58;
+    background: #1c1e2c;
 }
 
 @media only screen and (min-width: 900px) {
@@ -1513,7 +1513,7 @@ thead {
     width: 14px;
     margin-left: 2px;
     margin-right: 2px;
-    border: 1px dashed #ffa726;
+    border: 1px dashed #7A9D8C;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1556,7 +1556,7 @@ thead {
         top: 24px;
         left: auto;
         right: 100%;
-        border-color: #ffa726;
+        border-color: #7A9D8C;
     }
 
     .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
@@ -1608,7 +1608,7 @@ thead {
 }
 
 .post-statis .statis .count a {
-    color: #42b983;
+    color: #161823;
 }
 
 .post-statis .statis .name {
@@ -1629,8 +1629,8 @@ thead {
     margin: 0 0.5rem;
     padding: 0;
     color: #fff;
-    border: 1px solid #0f9d58;
-    background: radial-gradient(#4cbf30, #0f9d58);
+    border: 1px solid #1c1e2c;
+    background: radial-gradient(#1c1e2c, #1c1e2c);
     font-size: 0.9rem;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .21), 0 2px 3px rgba(0, 0, 0, .1);
@@ -1716,7 +1716,7 @@ thead {
 }
 
 .my-projects .info .info-title a {
-    color: #34495e;
+    color: #1c1e2c;
 }
 
 .my-projects .info .info-desc {
@@ -1806,8 +1806,8 @@ thead {
 
 .other-skills .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
-    border: 1px solid #4cbf30;
+    background: linear-gradient(to right, #1c1e2c 0%, #1c1e2c 100%);
+    border: 1px solid #1c1e2c;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .25)
 }
 
@@ -1878,7 +1878,7 @@ p.search-result-summary{
 
 .search-result-list .search-result-title {
     font-size: 1.4rem;
-    color: #42b983;
+    color: #161823;
 }
 
 .search-result-list li {
@@ -1908,7 +1908,7 @@ p.search-result-summary{
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
+    background: linear-gradient(to bottom right, #4cbf30 0%, #0f9d58 100%);
     width: 48px;
     height: 48px;
 }
