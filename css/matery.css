@@ -110,15 +110,15 @@ pre {
     content: " ";
     position: absolute;
     border-radius: 50%;
-    background: #ff5f56;
+    background: #FF8780;
     width: 12px;
     height: 12px;
     top: 0;
     left: 12px;
     margin-top: 12px;
-    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
-    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
-}
+    -webkit-box-shadow: 20px 0 #FFCE62, 40px 0 #50C962;
+    box-shadow: 20px 0 #FFCE62, 40px 0 #50C962;
+} 
 
 code {
     padding: 1px 5px;
@@ -387,11 +387,11 @@ header .side-nav .social-link {
 }
 
 .cover-btns a:hover {
-    border: 1px solid #f44336;
-    background-color: #f44336;
-    box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42),
-    0 4px 23px 0 rgba(0, 0, 0, 0.12),
-    0 8px 10px -5px rgba(233, 30, 99, 0.2);
+    border: 1px solid #0f9d58;
+    background-color: #0f9d58;
+    box-shadow: 0 14px 26px -12px rgba(72,203,143, 0.42),
+    0 4px 23px 0 rgba(0, 0, 0, 0.10),
+    0 8px 10px -5px rgba(72,203,143,0.2);
 }
 
 .cover-btns a i {
@@ -1095,7 +1095,7 @@ article .article-tags .chip {
 
 #artDetail .post-info .post-category:hover {
     font-weight: bold;
-    color: #161823;
+    color: #7F7F7F;
     text-decoration: underline;
 }
 
@@ -1158,7 +1158,7 @@ article .article-tags .chip {
 
 #artDetail .reprint a {
     font-size: 1.05rem;
-    color: #161823;
+    color: #7F7F7F;
     font-weight: 500;
 }
 
@@ -1327,7 +1327,7 @@ thead {
 }
 
 .chip-default .tag-length {
-    color: #e91e63;
+    color: #42B983;
     margin-top: 1px;
 }
 
@@ -1891,7 +1891,7 @@ p.search-result-summary{
     padding: 1px 5px 1px 4px;
     border-radius: 2px;
     background-color: #f2f2f2;
-    color: #e96900;
+    color: #48CB8F;
     font-style: normal;
     white-space: pre-wrap;
 }
@@ -2235,62 +2235,62 @@ body.DarkMode .theme-btn:hover {
     color: #777;
 }
 .post-container .note.primary {
-    border-left-color: #6f42c1;
+    border-left-color: #8F6AD1;
 }
 .post-container .note.primary h2, .post-container .note.primary h3, .post-container .note.primary h4, .post-container .note.primary h5, .post-container .note.primary h6 {
-    color: #6f42c1;
+    color: #8F6AD1;
 }
 .post-container .note.primary:not(.no-icon)::before {
     content:'\f055';
     font-family:'Font Awesome 5 Free';
     font-weight: 900;
-    color: #6f42c1;
+    color: #8F6AD1;
 }
 .post-container .note.info {
-    border-left-color: #428bca;
+    border-left-color: #3399CC;
 }
 .post-container .note.info h2, .post-container .note.info h3, .post-container .note.info h4, .post-container .note.info h5, .post-container .note.info h6 {
-    color: #428bca;
+    color: #3399CC;
 }
 .post-container .note.info:not(.no-icon)::before {
     content:'\f05a';
     font-family:'Font Awesome 5 Free';
     font-weight: 900;
-    color: #428bca;
+    color: #3399CC;
 }
 .post-container .note.success {
-    border-left-color: #5cb85c;
+    border-left-color: #73B873;
 }
 .post-container .note.success h2, .post-container .note.success h3, .post-container .note.success h4, .post-container .note.success h5, .post-container .note.success h6 {
-    color: #5cb85c;
+    color: #73B873;
 }
 .post-container .note.success:not(.no-icon)::before {
     content:'\f058';
     font-family:'Font Awesome 5 Free';
     font-weight: 900;
-    color: #5cb85c;
+    color: #73B873;
 }
 .post-container .note.warning {
-    border-left-color: #f0ad4e;
+    border-left-color: #F0BE77;
 }
 .post-container .note.warning h2, .post-container .note.warning h3, .post-container .note.warning h4, .post-container .note.warning h5, .post-container .note.warning h6 {
-    color: #f0ad4e;
+    color: #F0BE77;
 }
 .post-container .note.warning:not(.no-icon)::before {
     content:'\f06a';
     font-family:'Font Awesome 5 Free';
     font-weight: 900;
-    color: #f0ad4e;
+    color: #F0BE77;
 }
 .post-container .note.danger {
-    border-left-color: #d9534f;
+    border-left-color: #D97572;
 }
 .post-container .note.danger h2, .post-container .note.danger h3, .post-container .note.danger h4, .post-container .note.danger h5, .post-container .note.danger h6 {
-    color: #d9534f;
+    color: #D97572;
 }
 .post-container .note.danger:not(.no-icon)::before {
     content:'\f056';
     font-family:'Font Awesome 5 Free';
     font-weight: 900;
-    color: #d9534f;
+    color: #D97572;
 }
